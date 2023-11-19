@@ -1,0 +1,291 @@
+<html>
+<head>
+<meta name="viewport" content:"width=device-width, intial-scale:1.0">
+<!---------------------------------------------------------------------------------->
+<style>
+body { 
+	background-color:white;
+	color:black;
+}
+
+* {
+	box-sizing:border-box;
+
+}
+
+
+#whitebox {
+	position:absolute;
+	display:inline;
+	top:20%;
+	left:12.5%;
+	width:750px;
+	height:450px;
+	border: 2px solid white;
+	border-radius:10%;
+	box-shadow: 10px 10px 50px #e0e3eb;
+	
+}
+	
+#bluebox {
+	display:inline-block;
+	position:static;
+	float:left;
+	background-color:#352eeb;
+	background-image: linear-gradient(rgb(102,65,254), rgb(51,44,233));
+	width:50%;
+	height:100%;
+	border-radius:30px;
+}
+
+#wbox {
+	display:inline-block;
+	position:static;
+	top:0px;
+	left:50%;
+	width:50%;
+	height:100%;
+
+}
+
+
+#bluetext {
+	display:inline-block;
+	background-color: rgba(0,255,0,0); 
+	position:relative;
+	color:white;
+	padding:5%;
+	color: rgba(255,255,255,0.8);
+	font-size:200%;
+	margin:5%;
+}
+
+#B-zero {
+	position:relative;
+	display:flex;
+	align-items:center;
+	margin: 3%;
+	left:10%;
+	text-align:left;
+
+	background-color: rgb(255,255,255);
+	border:none;
+	width:80%;
+	height:12.5%;
+	border-radius:5px;
+}
+
+#B-one {
+	position:relative;
+	display:flex;
+	align-items:center;
+	margin: 3%;
+	left:10%;
+	text-align:left;
+
+	background-color: rgb(255,246,245);
+	color:crimson;
+	border:none;
+	width:80%;
+	height:12.5%;
+	border-radius:5px;
+}
+
+#B-two {
+	position:relative;
+	display:flex;
+	align-items:center;
+	margin: 3%;
+	left:10%;
+	text-align:left;
+	padding:5px;
+
+	background-color: rgb(255,251,240);
+	color:gold;
+	border:none;
+	width:80%;
+	height:12.5%;
+	border-radius:5px;
+}
+
+#B-three {
+	position:relative;
+	display:flex;
+	align-items:center;
+	margin: 3%;
+	left:10%;
+	text-align:left;
+
+	background-color: rgb(242,250,250);
+	color:limegreen;
+	border:none;
+	width:80%;
+	height:12.5%;
+	border-radius:5px;
+}
+
+#B-four {
+	position:relative;
+	display:flex;
+	align-items:center;
+	margin: 3%;
+	left:10%;
+	text-align:left;
+
+	background-color: rgb(242,243,253);
+	color:purple;
+	border:none;
+	width:80%;
+	height:12.5%;
+	border-radius:5px;
+}
+
+#B-cont {
+	position:relative;
+	display:block;
+	float:top;
+	margin-top: 10%;
+	margin-left:3%;
+	left:10%;
+	text-align:center;
+
+	background-color: rgb(48,59,89);
+	color:white;
+	border:none;
+	width:80%;
+	height:12.5%;
+	border-radius:55px;
+}
+
+#circle {
+	border: none;
+	border-radius:100%;
+	width:175px;
+	height:175px;
+	background-image: linear-gradient(rgb(74,36,207),rgba(69,52,422,0.9));
+	color:white;
+	font-size: 50px;
+}
+
+#small {
+	display:inline-block;
+	position:relative;
+	top:0%;
+	font-size: 10px;
+	color: rgba(255,255,255,0.3);
+}
+
+#big {
+	display:inline-block;
+	position:relative;
+	font-size: 50px;
+	margin-bottom:20px;
+	
+
+}
+
+
+#small1 {
+	display:inline-block;
+	position:relative;
+	max-width:60%;
+	top:0px;
+	font-size: 18px;
+	color: rgba(255,255,255,0.6);
+	margin:0;
+}
+
+.img {
+	position:relative;
+	display:inline-block;
+	height:20px;
+	margin-bottom:1%;
+
+}
+
+#start {
+	display:inline-block;
+	position:relative;
+	margin-left:5px;
+	font-size:15px;
+	width:15%;
+
+
+}
+
+
+#end {
+	position:relative;
+	display:inlne;
+	color:gray;
+	display:inline;
+	left:50%;
+	font-size:15px;
+}
+
+</style>
+<!----------------------------------------------------------------------------------->
+</head>
+<body>
+
+<div id="whitebox">
+	<div id="bluebox">
+	<center>
+	
+
+	<p id="bluetext" > Your Result </p>
+	<br>
+	<button id="circle"> <p id="big">76</p> <br> <p id="small"> of 100 </p> </button>
+	<br>
+	<p id="bluetext"; style=" padding:0; margin-bottom:5px; "> Great </p>
+	<br>
+	<p id="small1"> You scored higher than 65% of people who have taken this tests. </p>
+	
+
+	</center>
+	</div>
+
+
+
+
+
+
+
+	<div id="wbox">
+		<button id="B-zero"> Summary </button>
+		<button id="B-one">
+			&nbsp <img src="icon-reaction.svg" class="img"><p id="start"> Reaction </p>
+			<p id="end"> <b>80 </b>/ 100 </p>
+		</button>
+		<button id="B-two">
+			&nbsp <img src="icon-memory.svg" class="img"> <p id="start"> Memory </p>
+			<p id="end"> <b>92 </b>/ 100 </p>
+		</button>
+		<button id="B-three">
+			&nbsp <img src="icon-verbal.svg" class="img"><p id="start"> Verbal </p>
+			<p id="end"> <b>61 </b>/ 100 </p>
+		</button>
+		<button id="B-four">
+			&nbsp <img src="icon-visual.svg" class="img"><p id="start"> 
+Visual </p>
+			<p id="end"> <b>72 </b>/ 100 </p>
+		</button>
+		<button id="B-cont"> Continue </button>
+	</div>
+
+
+
+
+</div>
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>
